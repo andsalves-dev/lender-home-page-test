@@ -1,0 +1,25 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "~toastr/toastr";
+@import '~vue-loading-overlay/dist/vue-loading.css';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+#app > .container {
+    max-width: 800px;
+}
+
+#app > .container.login-container {
+    max-width: 500px;
+}
+
+.navbar-dark .navbar-nav .nav-link.router-link-active {
+    color: #FFF;
+}
