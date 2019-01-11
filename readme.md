@@ -8,7 +8,7 @@
 
 ### Quick start
 
-- create am empty database and set up the .env file with proper connection details
+- create an empty database and set up the .env file with proper connection details
 - run `composer install` (composer dependencies install)
 - run `php artisan migrate --seed` (run migrations and seeders)
 - run `npm install` (npm dependencies install)
